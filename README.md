@@ -8,3 +8,6 @@ Helm Charts mystery solved
 
 ### AWS EKS LoadBalancer
 1. Default load balancer is Class Load Balancer
+
+### AWS EKS NLB
+1. Change need to be added in the annotations-
