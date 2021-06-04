@@ -11,3 +11,4 @@ Helm Charts mystery solved
 
 ### AWS EKS NLB
 1. Change need to be added in the annotations-
+2. Two modes - Instance and IP modes. Instance will route traffic to Nodes - Node service. IP mode will route traffic to pods IP.
