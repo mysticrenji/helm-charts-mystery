@@ -1,5 +1,6 @@
 # helm-charts-mystery
-Helm Charts mystery solved
+
+Kuberentes related stuff
 
 ## EKS
 ### AWS EBS
@@ -21,3 +22,6 @@ Helm Charts mystery solved
 1. Fargate nodes will be spin up in Private Subnets
 2. Price based on number of pods instead of Nodes. 1 Host=1 Pod
 3. Node Port service type is not available as it runs inside a private subnet.
+
+### AWS XRay
+1. XRay daemon set will be installed on each worked node. The microservice apps need to inject logging using the XRay SDK to generate telemetry.
