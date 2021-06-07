@@ -16,3 +16,6 @@ Helm Charts mystery solved
 
 ### AWS EKS ALB 
 1. Need to create a service account and map it with IAM role which has access to AWS resources
+
+### AWS EKS Fargate
+1. Fargate nodes will be spin up in Private Subnets
