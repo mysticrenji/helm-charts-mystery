@@ -19,3 +19,4 @@ Helm Charts mystery solved
 
 ### AWS EKS Fargate
 1. Fargate nodes will be spin up in Private Subnets
+2. Price based on number of pods instead of Nodes. 1 Host=1 Pod
